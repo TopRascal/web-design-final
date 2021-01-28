@@ -1,0 +1,68 @@
+@font-face {
+    font-family: minecraftHeader;
+    src: url('MinecraftTen-VGORe.ttf');
+} /*Header Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  /*Text Font*/
+
+.header {
+    font-family: 'minecraftHeader';
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.article {
+    width: 1600px auto;
+    margin: 50px;
+    padding: 20px 50px;
+    background: white;
+    box-shadow: 0 0 20px black;
+}
+
+.article h2 {
+    font-family: 'minecraftHeader';
+    font-size: 175%;
+}
+
+.article p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
+    line-height: 2;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 150px;
+    margin: 50px auto;
+    padding: 5px 10px;
+    background: white;
+    box-shadow: 0 0 20px black;
+}
+
+#icon {
+    width: 25px;
+}
+
+#index {
+    background: url(images/background_index.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#mining {
+    background: url(images/background_mining.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#combat {
+    background: url(images/background_combat.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#farming {
+    background: url(images/background_farming.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
