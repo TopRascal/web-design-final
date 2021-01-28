@@ -16,7 +16,10 @@
 
 .article {
     width: 1600px auto;
-    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px 50px;
     background: white;
     box-shadow: 0 0 20px black;
@@ -31,6 +34,37 @@
     font-family: 'Roboto', sans-serif;
     font-size: 125%;
     line-height: 2;
+}
+
+.article li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 125%;
+    line-height: 2;
+}
+
+.article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border: 3px solid black;
+}
+
+.article table, th, td{
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 10px;
+    scale: 100%;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+li em{
+    font-weight: bold;
 }
 
 footer {
@@ -48,21 +82,21 @@ footer {
 }
 
 #index {
-    background: url(images/background_index.png) no-repeat center center fixed;
+    background: url(images/backgrounds/background_index.png) no-repeat center center fixed;
     background-size: cover;
 }
 
 #mining {
-    background: url(images/background_mining.jpg) no-repeat center center fixed;
+    background: url(images/backgrounds/background_mining.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 #combat {
-    background: url(images/background_combat.jpg) no-repeat center center fixed;
+    background: url(images/backgrounds/background_combat.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 #farming {
-    background: url(images/background_farming.jpg) no-repeat center center fixed;
+    background: url(images/backgrounds/background_farming.jpg) no-repeat center center fixed;
     background-size: cover;
 }

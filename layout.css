@@ -28,6 +28,6 @@ ul.nav {
     }
 }
 
-li:hover {
+.nav li:hover {
     transform: translateY(-3px) scale(1.1);
  }
